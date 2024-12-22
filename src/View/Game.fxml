@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #333;" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #999;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane id="c1" fx:id="c1" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="1.0" prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c2" fx:id="c2" layoutX="150.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c3" fx:id="c3" layoutX="300.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c4" fx:id="c4" layoutY="150.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c5" fx:id="c5" layoutX="150.0" layoutY="150.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c6" fx:id="c6" layoutX="300.0" layoutY="150.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c7" fx:id="c7" layoutY="300.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c8" fx:id="c8" layoutX="150.0" layoutY="300.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane id="c9" fx:id="c9" layoutX="300.0" layoutY="300.0" onMouseClicked="#onClickCase" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#999999" height="150.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Pane prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Line endX="-51.666656494140625" endY="50.202178955078125" layoutX="156.0" layoutY="58.0" startX="-110.0000228881836" startY="-16.99999237060547" strokeWidth="5.0" />
+                        <Line endX="-50.53553771972656" endY="75.73770141601562" layoutX="93.0" layoutY="36.0" startX="14.868881225585938" startY="1.4644851684570312" strokeWidth="5.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="141.0" prefWidth="143.0">
+                     <children>
+                        <Circle fill="#999999" layoutX="75.0" layoutY="75.0" radius="47.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Line fx:id="l1" endX="524.9999389648438" endY="525.0" layoutX="-73.0" layoutY="-76.0" opacity="0.0" startX="75.00000762939453" startY="75.0" strokeWidth="6.0" />
+            <Line fx:id="l2" endX="64.9999771118164" endY="515.0" layoutX="-63.0" layoutY="-68.0" opacity="0.0" startX="513.3333129882812" startY="69.33332061767578" strokeWidth="6.0" />
+            <Line fx:id="l4" endX="54.999977111816406" endY="274.0" layoutX="-53.0" layoutY="-47.0" opacity="0.0" startX="505.00006103515625" startY="274.0" strokeWidth="6.0" />
+            <Line fx:id="l3" endX="46.666664123535156" endY="112.0" layoutX="-47.0" layoutY="-35.0" opacity="0.0" startX="499.24261474609375" startY="112.0" strokeWidth="6.0" />
+            <Line fx:id="l5" endX="37.333351135253906" endY="406.0" layoutX="-34.0" layoutY="-29.0" opacity="0.0" startX="485.00006103515625" startY="406.0" strokeWidth="6.0" />
+            <Line fx:id="l6" endX="96.66667175292969" endY="20.757362365722656" layoutX="-23.0" layoutY="-23.0" opacity="0.0" startX="96.66667175292969" startY="475.0" strokeWidth="6.0" />
+            <Line fx:id="l7" endX="239.99996948242188" endY="10.757362365722656" layoutX="-13.0" layoutY="-13.0" opacity="0.0" startX="239.99996948242188" startY="465.0" strokeWidth="6.0" />
+            <Line fx:id="l8" endX="374.0" endY="3.3333256244659424" opacity="0.0" startX="374.0" startY="450.6667175292969" strokeWidth="6.0" />
+            <AnchorPane fx:id="modal" layoutX="75.0" layoutY="88.0" prefHeight="296.0" prefWidth="283.0" style="-fx-background-color: #666;" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0">
+               <children>
+                  <Button fx:id="AI_F" layoutX="94.0" layoutY="89.0" mnemonicParsing="false" onAction="#onClickButtonLancerAI_Facile" prefHeight="17.0" prefWidth="95.0" text="Facile" textAlignment="CENTER">
+                     <font>
+                        <Font name="Constantia" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="AI_M" layoutX="94.0" layoutY="148.0" mnemonicParsing="false" onAction="#onClickButtonLancerAI_Moyen" prefHeight="17.0" prefWidth="95.0" text="Moyen" textAlignment="CENTER">
+                     <font>
+                        <Font name="Constantia" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="AI_D" layoutX="94.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickButtonLancerAI_Difficile" prefHeight="17.0" prefWidth="95.0" text="Difficile" textAlignment="CENTER">
+                     <font>
+                        <Font name="Constantia" size="14.0" />
+                     </font>
+                  </Button>
+                  <StackPane layoutX="28.0" layoutY="32.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="29.0" prefWidth="179.0" style="-fx-background-color: #666;">
+                     <children>
+                        <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#888888" height="30.0" stroke="BLACK" strokeType="INSIDE" width="227.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rejouer en mode : ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="303.0" BorderPane.alignment="BOTTOM_CENTER">
+         <children>
+            <Button fx:id="rejouer" layoutX="178.0" mnemonicParsing="false" onAction="#onRejouerClicked" prefHeight="29.0" prefWidth="97.0" text="Rejouer" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAccueil" layoutX="20.0" mnemonicParsing="false" onAction="#onClickButtonAccueil" prefHeight="32.0" prefWidth="116.0" stylesheets="@../application/application.css" text="Retour Accueil" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <top>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="29.0" prefWidth="488.0" BorderPane.alignment="TOP_CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+         <children>
+            <StackPane layoutX="76.0" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="29.0" prefWidth="179.0" style="-fx-background-color: #666;">
+               <children>
+                  <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#666666" height="30.0" stroke="BLACK" strokeType="INSIDE" width="328.0" />
+                  <Text fx:id="indicateur" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane layoutX="-47.0" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="71.0" style="-fx-background-color: #666;">
+               <children>
+                  <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#666666" height="30.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+                  <Label fx:id="chronometreLabel" text="00:00:00" />
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

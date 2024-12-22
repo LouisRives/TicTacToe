@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="root" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RootController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+            <Menu mnemonicParsing="false" text="Accueil">
+              <items>
+                <MenuItem fx:id="accueil" mnemonicParsing="false" onAction="#onClickAccueil" text="Accueil" />
+                <MenuItem fx:id="parametre" mnemonicParsing="false" onAction="#onClickParametre" text="Paramètre" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="IA">
+            <items>
+              <MenuItem fx:id="setting" mnemonicParsing="false" onAction="#onClickSetting" text="Paramètre" />
+                  <MenuItem fx:id="model" mnemonicParsing="false" onAction="#onClickModel" text="Modèles" />
+                  <MenuItem fx:id="learn" mnemonicParsing="false" onAction="#onClickLearn" text="Apprentissage" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #333;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
